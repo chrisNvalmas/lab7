@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="chrisvalmaslab2part4.css"?>
+
+<songlist xmlns:html="http://www.w3.org/1999/xhtml">
+	<h1> Favorite Songs</h1>
+	<headers>
+		<Header>Song</Header>
+		<Header>Artist</Header>
+		<Header>Album</Header>
+		<Header>Release Date</Header>
+		<Header>Genre</Header>
+	</headers>
+
+	<songs>
+		<song>Under The Bridge</song>
+		<artist>Red Hot Chili Peppers</artist>
+		<album><a href="http://www.allmusic.com/album/blood-sugar-sex-magik-mw0000265082"> Blood Sugar Sex Magik</a></album>
+		<releaseDate> March 10, 1992</releaseDate>
+		<genre><ul>
+			<li>Alternative Rock</li>
+			</ul>
+		</genre>
+	</songs>
+
+	<songs>
+		<song>Be Ourselves</song>
+		<artist>Borgore</artist>
+		<album><a href="http://www.allmusic.com/album/newgoreorder-mw0002692284">#NEWGOREORDER</a></album>
+		<releaseDate>July 8, 2014</releaseDate>
+		<genre><ul>
+			<li>Electronic</li>
+			</ul>
+		</genre>
+	</songs>
+
+	<songs>
+		<song>Broccoli</song>
+		<artist>D.R.A.M. featuring Lil Yachty</artist>
+		<album><a href="http://www.allmusic.com/album/broccoli-mw0002957520"> Broccoli</a></album>
+		<releaseDate> April 6, 2016</releaseDate>
+		<genre><ul>
+			<li>Hip Hop</li>
+			<li>Trap</li>
+			</ul>
+		</genre>
+	</songs>
+
+	<songs>
+		<song id="favorite">Santeria</song>
+		<artist>Sublime</artist>
+		<album><a href="http://www.allmusic.com/album/sublime-mw0000186009">Sublime</a></album>
+		<releaseDate> January 7, 1997</releaseDate>
+		<genre><ul>
+			<li>Reggage Rock</li>
+			<li>Ska Punk</li>
+			<li>Alternative Rock</li>
+			</ul>
+		</genre>
+	</songs>
+
+	<songs>
+		<song>Comfortably Numb</song>
+		<artist>Pink Floyd</artist>
+		<album><a href="http://www.allmusic.com/album/the-wall-mw0000195292">The Wall</a></album>
+		<releaseDate> 23 June, 1980</releaseDate>
+		<genre><ul>
+			<li>Progressive Rock</li>
+			</ul>
+		</genre>
+	</songs>
+
+	<songs>
+		<song>How Many Times</song>
+		<artist>Dj Khaled</artist>
+		<album><a href="http://www.allmusic.com/album/i-changed-a-lot-mw0002888134">I Changed a Lot</a></album>
+		<releaseDate> May 12, 2015</releaseDate>
+		<genre><ul>
+			<li>Trap</li>
+			<li>Electroc-R and B</li>
+			</ul>
+		</genre>
+	</songs>
+</songlist>

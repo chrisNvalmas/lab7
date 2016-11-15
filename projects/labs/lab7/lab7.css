@@ -1,0 +1,12 @@
+
+.StartInput {
+	width:100%;
+
+}
+
+.Function {
+	font-size: 14px;
+	display: inline-block;
+	color: red;
+	background-color: black;
+}

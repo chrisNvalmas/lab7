@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<songs>
+	<song> 1. Under The Bridge
+		<artist>Arist: Red Hot Chili Peppers</artist>
+		<album>Album Name: Blood Sugar Sex Magik</album>
+		<Released>Release Date:March 10, 1992</Released>
+		<Genre>Genre:Alternative Rock</Genre>
+	</song>
+	<song> 2. Be Ourselves
+		<artist>Arist: Borgore</artist>
+		<album>Album Name: Album Name:#NEWGOREORDER</album>
+		<Released>Release Date:July 8, 2014</Released>
+		<Genre>Genre:Electronic</Genre>
+	</song>
+	<song> 3. Broccoli
+		<artist>Arist: D.R.A.M. featuring Lil Yachty</artist>
+		<album>Album Name: Broccoli</album>
+		<Released>Release Date:April 6, 2016</Released>
+		<Genre>Genre:Hip Hop/Trap</Genre>
+	</song>
+	<song> 4. Santeria
+		<artist>Arist: Sublime</artist>
+		<album>Album Name: Sublime</album>
+		<Released>Release Date:January 7, 1997</Released>
+		<Genre>Genre:Reggae Rock/Ska Punk/Alternative Rock</Genre>
+	</song>
+	<song> Comfortably Numb
+		<artist>Arist: Pink Floyd</artist>
+		<album>Album Name: The Wall</album>
+		<Released>Release Date:23 June, 1980</Released>
+		<Genre>Genre:Progressive Rock</Genre>
+	</song>
+	<song> 6. How Many Times
+		<artist>Arist: Dj Khaled</artist>
+		<album>Album Name: I Changed a Lot</album>
+		<Released>Release Date:May 12, 2015</Released>
+		<Genre>Genre:Trap/Electro-R and B</Genre>
+	</song>
+</songs>

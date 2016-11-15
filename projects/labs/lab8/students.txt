@@ -1,0 +1,161 @@
+===Database websyslab8            RIN(JUST EXPORTED)
+
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|first|varchar(100)|No|
+|last|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(45)|No|
+|city|varchar(45)|No|
+|st|varchar(45)|No|
+|zip|varchar(45)|No|
+== Dumping data for table students
+
+|661139321|TimoL|Timothy|Lawrence|Tim|2147483647|Road|Troy|New York|12180
+|661139745|mattS|Matthew|Smith|Matt|2147483647|rambling|allenwood|New Jersey|08720
+|661139746|WillS|William|Smith|Will|2147483647|fort|Wall|New Jersey|08720
+|661139747|GeorF|George|Foreman|George|2147483647|Horn|allenwood|New Jersey|08720
+|661139748|MichL|Michael|Log|Mike|2147483647|rushing|brick|New York|12180
+|661139750|LarrK|Larry|King|Larry|2147483647|4th|albany|New York|12180
+|661139751|WillL|William|Laker|Will|2147483647|howling|howell|New Jersey|08750
+|661139999|HuntC|Hunter|Carter|Hunter|2147483647|Peoples|Baltimore|Maryland|67501
+|662239748|PatrC|Patrick|Clinton|Pat|2147483647|3rd|Troy|New York|12180
+|662339750|KennS|Kenneth|Schmit|Kenny|2147483647|5th|New York City|New York|56780
+
+===Database websyslab8       LAST NAME(JUST EXPORTED)
+
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|first|varchar(100)|No|
+|last|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(45)|No|
+|city|varchar(45)|No|
+|st|varchar(45)|No|
+|zip|varchar(45)|No|
+== Dumping data for table students
+
+|661139999|HuntC|Hunter|Carter|Hunter|2147483647|Peoples|Baltimore|Maryland|67501
+|662239748|PatrC|Patrick|Clinton|Pat|2147483647|3rd|Troy|New York|12180
+|661139747|GeorF|George|Foreman|George|2147483647|Horn|allenwood|New Jersey|08720
+|661139750|LarrK|Larry|King|Larry|2147483647|4th|albany|New York|12180
+|661139751|WillL|William|Laker|Will|2147483647|howling|howell|New Jersey|08750
+|661139321|TimoL|Timothy|Lawrence|Tim|2147483647|Road|Troy|New York|12180
+|661139748|MichL|Michael|Log|Mike|2147483647|rushing|brick|New York|12180
+|662339750|KennS|Kenneth|Schmit|Kenny|2147483647|5th|New York City|New York|56780
+|661139745|mattS|Matthew|Smith|Matt|2147483647|rambling|allenwood|New Jersey|08720
+|661139746|WillS|William|Smith|Will|2147483647|fort|Wall|New Jersey|08720
+
+===Database websyslab8      RCSid(JUST EXPORTED)
+
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|first|varchar(100)|No|
+|last|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(45)|No|
+|city|varchar(45)|No|
+|st|varchar(45)|No|
+|zip|varchar(45)|No|
+== Dumping data for table students
+
+|661139747|GeorF|George|Foreman|George|2147483647|Horn|allenwood|New Jersey|08720
+|661139999|HuntC|Hunter|Carter|Hunter|2147483647|Peoples|Baltimore|Maryland|67501
+|662339750|KennS|Kenneth|Schmit|Kenny|2147483647|5th|New York City|New York|56780
+|661139750|LarrK|Larry|King|Larry|2147483647|4th|albany|New York|12180
+|661139745|mattS|Matthew|Smith|Matt|2147483647|rambling|allenwood|New Jersey|08720
+|661139748|MichL|Michael|Log|Mike|2147483647|rushing|brick|New York|12180
+|662239748|PatrC|Patrick|Clinton|Pat|2147483647|3rd|Troy|New York|12180
+|661139321|TimoL|Timothy|Lawrence|Tim|2147483647|Road|Troy|New York|12180
+|661139751|WillL|William|Laker|Will|2147483647|howling|howell|New Jersey|08750
+|661139746|WillS|William|Smith|Will|2147483647|fort|Wall|New Jersey|08720
+
+===Database websyslab8   FIRST NAME(JUST EXPORTED)
+
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|first|varchar(100)|No|
+|last|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(45)|No|
+|city|varchar(45)|No|
+|st|varchar(45)|No|
+|zip|varchar(45)|No|
+== Dumping data for table students
+
+|661139747|GeorF|George|Foreman|George|2147483647|Horn|allenwood|New Jersey|08720
+|661139999|HuntC|Hunter|Carter|Hunter|2147483647|Peoples|Baltimore|Maryland|67501
+|662339750|KennS|Kenneth|Schmit|Kenny|2147483647|5th|New York City|New York|56780
+|661139750|LarrK|Larry|King|Larry|2147483647|4th|albany|New York|12180
+|661139745|mattS|Matthew|Smith|Matt|2147483647|rambling|allenwood|New Jersey|08720
+|661139748|MichL|Michael|Log|Mike|2147483647|rushing|brick|New York|12180
+|662239748|PatrC|Patrick|Clinton|Pat|2147483647|3rd|Troy|New York|12180
+|661139321|TimoL|Timothy|Lawrence|Tim|2147483647|Road|Troy|New York|12180
+|661139746|WillS|William|Smith|Will|2147483647|fort|Wall|New Jersey|08720
+|661139751|WillL|William|Laker|Will|2147483647|howling|howell|New Jersey|08750
+
+
+(STUDENTS WHO GOT ABOVE A 90)
+SELECT students.rin as r, students.first as f, students.last as l, grades.grade as g FROM students, grades WHERE grades.rin = students.rin AND grade >= 90
+===Database websyslab8
+
+== Dumping data for table students
+
+|661139321|Timothy|Lawrence|90
+|661139745|Matthew|Smith|97
+|661139745|Matthew|Smith|94
+|661139750|Larry|King|99
+|661139750|Larry|King|98
+|661139999|Hunter|Carter|92
+|661139999|Hunter|Carter|94
+|662239748|Patrick|Clinton|91
+|662239748|Patrick|Clinton|97
+
+
+===Database websyslab8   NUMBER OF STUDENTS
+(SELECT COUNT(*) FROM students)
+
+== Table structure for table students
+
+|------
+|Column|Type|Null|Default
+|------
+|//**rin**//|int(9)|No|
+|rcsID|char(7)|No|
+|first|varchar(100)|No|
+|last|varchar(100)|No|
+|alias|varchar(100)|No|
+|phone|int(10)|No|
+|street|varchar(45)|No|
+|city|varchar(45)|No|
+|st|varchar(45)|No|
+|zip|varchar(45)|No|
+== Dumping data for table students
+
+|10
+
+

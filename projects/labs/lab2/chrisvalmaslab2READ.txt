@@ -1,0 +1,16 @@
+Christopher Valmas Lab 2
+
+Part 1.
+	I am using html 5.0 markup since I have the most experience with html. I made it so all the info is wrapped in a div with the picture below it. This allows for an easy list like structure and css to be easily applied.
+
+Part 2.
+
+I have a root followed by children and their subchildren. This is the structure that proper XML should have. Along with proper identification of different elements.
+
+Part 3.
+
+For the HTML file I assigned all the different classes that I needed to edit in the CSS file for easier access. Also used IDS
+
+Part 4.
+
+Had all the elements nicely named so editing them in the css file would be easy. I couldn't get the img tags to work or the hyperlinks though they kept giving me an error.

@@ -1,0 +1,60 @@
+
+
+{
+	"songs" : [
+		{
+			"song" : "Under The Bridge",
+			"artist" : "Red Hot Chili Peppers",
+			"album" : "Blood Sugar Sex Magik",
+			"album_link" : "http://www.allmusic.com/album/blood-sugar-sex-magik-mw0000265082",
+			"album_picture" : "https://upload.wikimedia.org/wikipedia/en/5/5e/RHCP-BSSM.jpg",
+			"releaseDate" : "March 10, 1992",
+			"genre" : ["Alternative Rock"]
+		},
+		{
+			"song" : "Be Ourselves",
+			"artist" : "Borgore",
+			"album" : "#NEWGOREORDER",
+			"album_link" : "http://www.allmusic.com/album/newgoreorder-mw0002692284",
+			"album_picture" : "http://a5.mzstatic.com/us/r30/Music4/v4/79/6a/1e/796a1e38-e364-dbc9-221a-8efe837c5586/cover170x170.jpeg",
+			"releaseDate" : "July 8, 2014",
+			"genre" : ["Electronic"]
+		},
+		{
+			"song" : "Broccoli",
+			"artist" : "D.R.A.M. featuring Lil Yachty",
+			"album" : "Broccoli",
+			"album_link" : "http://www.allmusic.com/album/broccoli-mw0002957520",
+			"album_picture" : "https://upload.wikimedia.org/wikipedia/en/c/c4/BroccoliDRAM.jpg",
+			"releaseDate" : "April 6, 2016",
+			"genre" : ["Hip Hop", "Trap"]
+		},
+		{
+			"song" : "Santeria",
+			"artist" : "Sublime",
+			"album" : "Sublime",
+			"album_link" : "http://www.allmusic.com/album/sublime-mw0000186009",
+			"album_picture" : "https://upload.wikimedia.org/wikipedia/en/thumb/9/94/Sublime_Self-Titled.jpg/220px-Sublime_Self-Titled.jpg",
+			"releaseDate" : "January 7, 1997",
+			"genre" : ["Reggae Rock", "Ska Punk", "Alternative Rock"]
+		},
+		{
+			"song" : "Comfortably Numb",
+			"artist" : "Pink Floyd",
+			"album" : "The Wall",
+			"album_link" : "http://www.allmusic.com/album/the-wall-mw0000195292",
+			"album_picture" : "https://upload.wikimedia.org/wikipedia/en/1/13/PinkFloydWallCoverOriginalNoText.jpg",
+			"releaseDate" : "23 June, 1980",
+			"genre" : ["Progressive Rock"]
+		},
+		{
+			"song" : "How Many Times",
+			"artist" : "Dj Khaled",
+			"album" : "I Changed a Lot",
+			"album_link" : "http://www.allmusic.com/album/i-changed-a-lot-mw0002888134",
+			"album_picture" : "https://upload.wikimedia.org/wikipedia/en/b/bd/DJ_Khaled_I_Changed_A_Lot.jpg",
+			"releaseDate" : "May 12, 2015",
+			"genre" : ["Trap", "Electroc-R&B"]
+		}
+	] 
+}

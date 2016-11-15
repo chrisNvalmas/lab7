@@ -1,0 +1,107 @@
+#Me 
+{
+	text-align: center;
+	margin-bottom: 10px;
+}
+
+#Me p 
+{
+	margin: 0px;
+}
+
+#Me h1
+{
+	margin-bottom: 0px;
+}
+
+.college
+{
+	text-align: center;
+}
+
+#Education 
+{
+	border-bottom: 1px solid;
+	padding-top: 10px;
+	margin-bottom: 10px;
+	margin-top: 10px;
+	border-top: 1px solid;
+}
+
+#WorkExperience
+{
+	border-bottom: 1px solid;
+	margin-bottom: 10px;
+}
+
+.date
+{
+	float: right;
+	font-style: italic;
+}
+
+img
+{
+	display: block;
+	margin-left: auto;
+	margin-right:auto;
+	width: 200px;
+	height: 200px;
+}
+
+a:link
+{
+	text-decoration: none;
+	color:black;
+}
+
+a:visited
+{
+	color:black;
+}
+
+.NoStyle
+{
+	list-style-type:none;
+}
+
+#highschool
+{
+	margin-bottom: 10px;
+}
+
+#accomplishments
+{
+	margin-top: -10px;
+}
+
+#accomplishments ul li 
+{
+	margin-top: 5px;
+}
+
+.school {
+	font-weight: bold;
+}
+
+.workPlace
+{
+	font-weight: bold;
+}
+
+.achievement
+{
+	font-style: italic;
+}
+
+.skill
+{
+	font-weight: bold;
+}
+
+#Objective
+{
+	text-align: center;
+	border-top: 1px solid;
+	margin-top: 10px;
+}

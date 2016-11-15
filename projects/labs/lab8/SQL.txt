@@ -1,0 +1,174 @@
+-- phpMyAdmin SQL Dump
+-- version 4.5.1
+-- http://www.phpmyadmin.net
+--
+-- Host: 127.0.0.1
+-- Generation Time: Nov 10, 2016 at 05:54 AM
+-- Server version: 10.1.16-MariaDB
+-- PHP Version: 5.6.24
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `websyslab8`
+--
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `courses`
+--
+
+CREATE TABLE `courses` (
+  `crn` int(11) NOT NULL,
+  `prefix` varchar(4) COLLATE utf8_unicode_ci NOT NULL,
+  `number` smallint(4) NOT NULL,
+  `title` varchar(255) COLLATE utf8_unicode_ci NOT NULL,
+  `section` smallint(1) NOT NULL,
+  `year` smallint(4) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `courses`
+--
+
+INSERT INTO `courses` (`crn`, `prefix`, `number`, `title`, `section`, `year`) VALUES
+(25767, 'PSYC', 1100, 'General Psychology', 0, 0),
+(35750, 'CSCI', 4100, 'Intro to Algorithms', 0, 0),
+(45678, 'CSCI', 1155, 'Introduction to Basic Computing', 0, 0),
+(45679, 'ENGR', 6500, 'Engineering Processes', 0, 0),
+(55400, 'WRIT', 4560, 'Creative Writing', 0, 0),
+(56071, 'BIOL', 2250, 'Introduction to Cell Bio', 0, 0),
+(60185, 'PSYC', 4200, 'Psychology and the Law', 0, 0),
+(60265, 'CSCI', 2100, 'Web Science', 0, 0),
+(60735, 'PSYC', 3765, 'Organizational Psychology', 0, 0),
+(60780, 'ENGR', 3250, 'Building Stuff', 0, 0);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `grades`
+--
+
+CREATE TABLE `grades` (
+  `id` int(6) NOT NULL,
+  `crn` int(8) NOT NULL,
+  `rin` int(9) NOT NULL,
+  `grade` int(3) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `grades`
+--
+
+INSERT INTO `grades` (`id`, `crn`, `rin`, `grade`) VALUES
+(1, 25767, 661139321, 90),
+(2, 45678, 661139321, 75),
+(3, 60265, 661139745, 97),
+(4, 56071, 661139745, 94),
+(5, 60780, 661139746, 58),
+(6, 60735, 661139746, 47),
+(7, 35750, 661139747, 88),
+(8, 60185, 661139747, 85),
+(9, 55400, 661139748, 13),
+(10, 45679, 661139748, 25),
+(11, 25767, 661139750, 99),
+(12, 45678, 661139750, 98),
+(13, 60265, 661139751, 78),
+(14, 56071, 661139751, 85),
+(15, 60780, 661139999, 92),
+(16, 60735, 661139999, 94),
+(17, 35750, 662239748, 91),
+(18, 60185, 662239748, 97),
+(19, 55400, 662339750, 81),
+(20, 45679, 662339750, 83);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `students`
+--
+
+CREATE TABLE `students` (
+  `rin` int(9) NOT NULL,
+  `rcsID` char(7) COLLATE utf8_unicode_ci NOT NULL,
+  `first` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `last` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `alias` varchar(100) COLLATE utf8_unicode_ci NOT NULL,
+  `phone` int(10) NOT NULL,
+  `street` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+  `city` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+  `st` varchar(45) COLLATE utf8_unicode_ci NOT NULL,
+  `zip` varchar(45) COLLATE utf8_unicode_ci NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_unicode_ci;
+
+--
+-- Dumping data for table `students`
+--
+
+INSERT INTO `students` (`rin`, `rcsID`, `first`, `last`, `alias`, `phone`, `street`, `city`, `st`, `zip`) VALUES
+(661139321, 'TimoL', 'Timothy', 'Lawrence', 'Tim', 2147483647, 'Road', 'Troy', 'New York', '12180'),
+(661139745, 'mattS', 'Matthew', 'Smith', 'Matt', 2147483647, 'rambling', 'allenwood', 'New Jersey', '08720'),
+(661139746, 'WillS', 'William', 'Smith', 'Will', 2147483647, 'fort', 'Wall', 'New Jersey', '08720'),
+(661139747, 'GeorF', 'George', 'Foreman', 'George', 2147483647, 'Horn', 'allenwood', 'New Jersey', '08720'),
+(661139748, 'MichL', 'Michael', 'Log', 'Mike', 2147483647, 'rushing', 'brick', 'New York', '12180'),
+(661139750, 'LarrK', 'Larry', 'King', 'Larry', 2147483647, '4th', 'albany', 'New York', '12180'),
+(661139751, 'WillL', 'William', 'Laker', 'Will', 2147483647, 'howling', 'howell', 'New Jersey', '08750'),
+(661139999, 'HuntC', 'Hunter', 'Carter', 'Hunter', 2147483647, 'Peoples', 'Baltimore', 'Maryland', '67501'),
+(662239748, 'PatrC', 'Patrick', 'Clinton', 'Pat', 2147483647, '3rd', 'Troy', 'New York', '12180'),
+(662339750, 'KennS', 'Kenneth', 'Schmit', 'Kenny', 2147483647, '5th', 'New York City', 'New York', '56780');
+
+--
+-- Indexes for dumped tables
+--
+
+--
+-- Indexes for table `courses`
+--
+ALTER TABLE `courses`
+  ADD PRIMARY KEY (`crn`);
+
+--
+-- Indexes for table `grades`
+--
+ALTER TABLE `grades`
+  ADD PRIMARY KEY (`id`),
+  ADD KEY `crn` (`crn`),
+  ADD KEY `rin` (`rin`);
+
+--
+-- Indexes for table `students`
+--
+ALTER TABLE `students`
+  ADD PRIMARY KEY (`rin`);
+
+--
+-- AUTO_INCREMENT for dumped tables
+--
+
+--
+-- AUTO_INCREMENT for table `grades`
+--
+ALTER TABLE `grades`
+  MODIFY `id` int(6) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=21;
+--
+-- Constraints for dumped tables
+--
+
+--
+-- Constraints for table `grades`
+--
+ALTER TABLE `grades`
+  ADD CONSTRAINT `grades_ibfk_1` FOREIGN KEY (`crn`) REFERENCES `courses` (`crn`),
+  ADD CONSTRAINT `grades_ibfk_2` FOREIGN KEY (`rin`) REFERENCES `students` (`rin`);
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

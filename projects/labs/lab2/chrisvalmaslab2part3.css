@@ -1,0 +1,94 @@
+body
+{
+	margin: 100px;
+}
+h1
+{
+	text-align: center;
+}	
+
+img 
+{
+	height:250px;
+	width:200px;
+	float:right;
+}
+
+ul
+{
+	list-style-type: none;
+}
+
+li
+{
+	width:285px;
+}
+
+li:before 
+{
+	content: "- "
+}
+
+.headers {
+	float:left;
+	width: 1650px;
+	border: 1px solid black;
+}
+
+.header{
+	float:left;
+	width:285px;
+	font-size: 24px;
+}
+
+.song
+{
+	font-variant: small-caps;
+	font-size: 20px;
+	float: left;
+	width:285px;
+}
+
+.artist 
+{
+	font-weight: bold; 
+	font-size: 24px;
+	float: left;
+	width:285px;
+}
+
+.album
+{
+	font-style: italic; 
+	float: left;
+	width:285px;
+}
+
+.release-date, .genre 
+{
+	font-size: 16px;
+	width:285px;
+	float:left;
+}
+
+#favorite 
+{
+	color:green;
+}
+
+#end
+{
+	border: 1px solid black;
+	width: 1650px;
+	font-style: italic;
+	text-align: center;
+	font-size: 10px;
+}
+
+.songs 
+{
+	width:1650px;
+	height:300px;
+	border: 1px solid black;
+}
+
